@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeSearch - Your Programming Resource Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <h1>CodeSearch</h1>
+            </div>
+            <p class="subtitle">Find the best programming resources instantly</p>
+        </header>
+
+        <div class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="searchInput" placeholder="Search for programming topics..." autocomplete="off">
+                    <button id="searchBtn" class="search-btn">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="search-suggestions" id="suggestions"></div>
+            </div>
+        </div>
+
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <div class="results-header">
+                <h2 id="resultsTitle">Search Results</h2>
+                <div class="results-count" id="resultsCount"></div>
+            </div>
+            <div class="results-container" id="resultsContainer"></div>
+        </div>
+
+        <div class="loading" id="loading" style="display: none;">
+            <div class="spinner"></div>
+            <p>Searching...</p>
+        </div>
+
+        <div class="popular-topics">
+            <h3>Popular Topics</h3>
+            <div class="topic-tags">
+                <span class="topic-tag" onclick="searchTopic('javascript')">JavaScript</span>
+                <span class="topic-tag" onclick="searchTopic('python')">Python</span>
+                <span class="topic-tag" onclick="searchTopic('react')">React</span>
+                <span class="topic-tag" onclick="searchTopic('nodejs')">Node.js</span>
+                <span class="topic-tag" onclick="searchTopic('algorithms')">Algorithms</span>
+                <span class="topic-tag" onclick="searchTopic('data structures')">Data Structures</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
