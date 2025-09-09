@@ -1,0 +1,8 @@
+JavaScript|https://eloquentjavascript.net/Eloquent_JavaScript.pdf|https://www.geeksforgeeks.org/javascript/|https://en.wikipedia.org/wiki/JavaScript|https://www.youtube.com/results?search_query=javascript+tutorial
+Python|https://www.py4e.com/book.php|https://www.geeksforgeeks.org/python-programming-language/|https://en.wikipedia.org/wiki/Python_(programming_language)|https://www.youtube.com/results?search_query=python+programming+tutorial
+React|https://reactjs.org/docs/getting-started.html|https://www.geeksforgeeks.org/react-js-introduction/|https://en.wikipedia.org/wiki/React_(JavaScript_library)|https://www.youtube.com/results?search_query=react+js+tutorial
+Node.js|https://nodejs.org/en/docs/|https://www.geeksforgeeks.org/nodejs/|https://en.wikipedia.org/wiki/Node.js|https://www.youtube.com/results?search_query=nodejs+tutorial
+Data Structures|https://opendatastructures.org/ods-java.pdf|https://www.geeksforgeeks.org/data-structures/|https://en.wikipedia.org/wiki/Data_structure|https://www.youtube.com/results?search_query=data+structures+algorithms
+Algorithms|https://mitpress.mit.edu/books/introduction-algorithms-third-edition|https://www.geeksforgeeks.org/fundamentals-of-algorithms/|https://en.wikipedia.org/wiki/Algorithm|https://www.youtube.com/results?search_query=algorithms+tutorial
+Machine Learning|https://www.statlearning.com/|https://www.geeksforgeeks.org/machine-learning/|https://en.wikipedia.org/wiki/Machine_learning|https://www.youtube.com/results?search_query=machine+learning+tutorial
+Web Development|https://developer.mozilla.org/en-US/docs/Learn|https://www.geeksforgeeks.org/web-development/|https://en.wikipedia.org/wiki/Web_development|https://www.youtube.com/results?search_query=web+development+tutorial
